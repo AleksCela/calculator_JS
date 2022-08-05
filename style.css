@@ -1,0 +1,71 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.deletreset{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.btnReset,.btnDelete{
+    padding: 20px;
+    display: block;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.square {
+    position: relative;
+    width: 30rem;
+    height: auto;
+    border: solid red 5px;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+.screen{
+    text-align: right;
+    border-style: solid;
+    padding: 10px;
+    margin: 7px;
+    background-color: grey;
+    min-height: 5rem;
+}
+.screen-now{
+    font-size: x-large;
+}
+.screen-before{
+    font-size: medium;
+
+}
+.buttons-grid{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+
+}
+.btn{
+    height: 6em;
+    font-size: medium;
+
+}
